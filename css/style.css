@@ -50,7 +50,7 @@
 
 .back-ground-intro {
     position: absolute;
-    background-image: url("/Images/Rectangle 248.svg"),
+    background-image: url("Images/Rectangle248.svg"),
     url("Images/bg-img.svg");
     width: 100%;
     height: 668px;
@@ -453,20 +453,20 @@
 }
 
 .img1 {
-    background: url("/Images/portfolio-1.png");
+    background: url("Images/portfolio-1.png");
 
 }
 
 .img2 {
-    background: url("/Images/portfolio-2.png");
+    background: url("Images/portfolio-2.png");
 }
 
 .img3 {
-    background: url("/Images/portfolio-3.png");
+    background: url("Images/portfolio-3.png");
 }
 
 .img4 {
-    background: url("/Images/portfolio-4.png");
+    background: url("Images/portfolio-4.png");
 }
 
 .mask i {
@@ -514,7 +514,7 @@
     width: 470px;
     height: 430px;
     border-radius: 4px;
-    background: url("/Images/video.svg") no-repeat;
+    background: url("Images/video.svg") no-repeat;
     background-size: cover;
     background-position-x: center;
     margin: 50px 93px 0 147px;
@@ -644,7 +644,7 @@
 
 .news1 {
     display: flex;
-    background: url("/Images/news-1.svg");
+    background: url("Images/news-1.svg");
     width: 255px;
     height: 430px;
     border-radius: 4px;
@@ -656,7 +656,7 @@
 
 .news2 {
     display: flex;
-    background: url("/Images/news-2.png");
+    background: url("Images/news-2.png");
     width: 255px;
     height: 330px;
     border-radius: 4px;
@@ -668,7 +668,7 @@
 
 .news3 {
     display: flex;
-    background: url("/Images/news-3.png");
+    background: url("Images/news-3.png");
     width: 255px;
     height: 364px;
     border-radius: 4px;
@@ -680,7 +680,7 @@
 
 .news4 {
     display: flex;
-    background: url("/Images/news-4.svg");
+    background: url("Images/news-4.svg");
     width: 255px;
     height: 201px;
     border-radius: 4px;
@@ -692,7 +692,7 @@
 
 .news5 {
     display: flex;
-    background: url("/Images/news-5.svg");
+    background: url("Images/news-5.svg");
     width: 255px;
     height: 165px;
     border-radius: 4px;
@@ -704,7 +704,7 @@
 
 .news6 {
     display: flex;
-    background: url("/Images/news-6.svg");
+    background: url("Images/news-6.svg");
     width: 255px;
     height: 346px;
     border-radius: 4px;
@@ -716,7 +716,7 @@
 
 .news7 {
     display: flex;
-    background: url("/Images/news-7.svg");
+    background: url("Images/news-7.svg");
     width: 255px;
     height: 200px;
     border-radius: 4px;
@@ -728,7 +728,7 @@
 
 .news8 {
     display: flex;
-    background: url("/Images/news-8.svg");
+    background: url("Images/news-8.svg");
     width: 255px;
     height: 427px;
     border-radius: 4px;
