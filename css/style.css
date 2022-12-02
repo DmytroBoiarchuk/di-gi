@@ -3,7 +3,9 @@
     width: 100%;
     height: 100px;
 }
-
+.intro-text .owl-dots{
+    margin: 0;
+}
 .hidden-hr {
     display: none;
     position: absolute;
@@ -16,12 +18,16 @@
     left: 290px;
 
 }
-
+.back-ground-intro .intro .intro-text .owl-theme .owl-dots{
+    margin-top: 200px ;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+.intro-text .owl-dots {
+    margin-top: 174px;
+}
 .header {
     position: relative;
     width: 1440px;
@@ -51,7 +57,7 @@
 .back-ground-intro {
     position: absolute;
     background-image: url("../Images/Rectangle248.svg"),
-    url("../Images/bg-img.svg");
+    url("Images/bg-img.svg");
     width: 100%;
     height: 668px;
     background-repeat: no-repeat;
@@ -87,7 +93,7 @@
 
 .intro-text {
     position: absolute;
-    left: 277px;
+    left: 0;
     width: 886px;
     height: 60px;
 }
@@ -102,7 +108,7 @@
     line-height: 26px;
     color: #FFFFFF;
     text-align: center;
-    margin: 317px 0 28px 0;
+    margin: 317px 0 28px 270px;
 }
 
 .read-more-button {
@@ -852,17 +858,21 @@
     margin: 0 auto;
 }
 
-.testimonial-container img {
+.imagine-fraze {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     width: 32px;
     height: 27px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .fraze {
-    width: 1400px;
     height: 170px;
     text-align: center;
     padding-top: 30px;
+    padding-left: 0;
 }
 
 .fraze h1 {
@@ -1030,7 +1040,9 @@
     .container {
         max-width: 1024px;
     }
-
+    .intro-text .owl-dots {
+        margin-top: 162px;
+    }
     .logo {
         left: 46px;
     }
@@ -1073,7 +1085,6 @@
     }
 
     .intro-text {
-        left: 210px;
         width: 615px;
         height: 44px;
     }
@@ -1083,7 +1094,7 @@
         height: 44px;
         font-size: 18px;
         line-height: 20px;
-        margin: 310px 0 12px 0;
+        margin: 310px 0 12px 187px;
     }
 
     .read-more-button {
@@ -1313,7 +1324,6 @@
     }
 
     .fraze {
-        width: 1024px;
         height: 152px;
         padding-top: 44px;
     }
@@ -1376,7 +1386,7 @@
         font-size: 16px;
     }
 
-    .back-button p {
+    .back-button a {
         right: 49px;
     }
 }
@@ -1385,7 +1395,9 @@
     .container {
         max-width: 768px;
     }
-
+    .intro-text .owl-dots {
+        margin-top: 100px;
+    }
     .logo {
         left: 44px;
     }
@@ -1423,7 +1435,6 @@
     }
 
     .intro-text {
-        left: 91px;
         width: 587px;
         height: 38px;
     }
@@ -1630,7 +1641,6 @@
     }
 
     .fraze {
-        width: 687px;
         height: 138px;
         padding-top: 40px;
     }
@@ -1679,7 +1689,7 @@
         width: 345px;
     }
 
-    .back-button p {
+    .back-button a {
         right: 58px;
     }
 }
@@ -1688,7 +1698,9 @@
     .container {
         max-width: 640px;
     }
-
+    .intro-text .owl-dots {
+        margin-top: 23px;
+    }
     .logo {
         left: 53px;
     }
@@ -1724,8 +1736,8 @@
         margin-top: 50px;
     }
 
-    .intro-text {
-        display: none;
+    .intro-text p{
+        visibility: hidden;
     }
 
     .hidden-hr {
@@ -1954,10 +1966,6 @@
         height: 461px;
     }
 
-    .fraze {
-        width: 600px;
-    }
-
     #footer {
         top: 7797px;
         height: 674px;
@@ -1999,7 +2007,9 @@
     .container {
         max-width: 320px;
     }
-
+    .intro-text .owl-dots {
+        margin-top: 0px;
+    }
     .back-ground-header {
         height: 80px;
     }
@@ -2278,7 +2288,6 @@
     }
 
     .fraze {
-        width: 280px;
         height: 258px;
     }
     .fraze h1{
@@ -2287,7 +2296,7 @@
         padding-top: 50px;
         font-size: 24px;
         line-height: 26px;
-        margin: 0;
+        margin-left: calc(50% - 140px);
     }
     .fraze p{
         margin-bottom: 40px;
