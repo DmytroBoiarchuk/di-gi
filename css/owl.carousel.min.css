@@ -31,13 +31,7 @@
 }
 
 .owl-carousel .owl-stage-outer {
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0)
-}
-.owl-carousel .owl-stage-outer .owl-two {
-    height: 220px;
+    height: 270px;
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0)
@@ -212,39 +206,35 @@
     height: 100%;
     width: 100%
 }
-
-@media only screen and (max-width: 1200px) {
-    .owl-carousel .owl-stage-outer {
-        height: 416px;
-    }
-    .owl-carousel .owl-stage-outer .owl-two {
-        height: 200px;
+.intro-text .owl-stage-outer{
+    height: 405px;
+}@media only screen and (max-width: 1200px) {
+    .intro-text .owl-stage-outer{
+        height: 366px;
     }
 }
-
 @media only screen and (max-width: 992px) {
     .owl-carousel .owl-stage-outer {
-        height: 353px;
+        height: 286px;
     }
-    .owl-carousel .owl-stage-outer .owl-two {
-        height: 150px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .owl-carousel .owl-stage-outer {
-        height: 273px;
-    }
-    .owl-carousel .owl-stage-outer .owl-two  {
-        height: 120px;
+    .intro-text .owl-stage-outer{
+        height: 303px;
     }
 }
 
+}@media only screen and (max-width: 767px) {
+    .owl-carousel .owl-stage-outer{
+        height: 260px;
+    }
+    .intro-text .owl-stage-outer{
+        height: 223px;
+    }
+}
 @media only screen and (max-width: 570px) {
     .owl-carousel .owl-stage-outer {
-        height: 128px;
+        height: 340px;
     }
-    .owl-carousel .owl-stage-outer .owl-two {
-        height: 70px;
+    .intro-text .owl-stage-outer{
+        height: 163px;
     }
 }
