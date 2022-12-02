@@ -35,7 +35,7 @@
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 124px
+
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -56,32 +56,4 @@
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #869791
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin-top: 112px
-    }
-}
-
-@media only screen and (max-width: 992px) {
-
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin-top: 50px
-    }
-}
-
-@media only screen and (max-width: 767px) {
-
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin-top: 53px
-    }
-}
-
-@media only screen and (max-width: 570px) {
-
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin-top: 35px
-    }
 }
