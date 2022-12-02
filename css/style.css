@@ -93,6 +93,8 @@
 }
 
 .intro-text p {
+    width: 886px;
+    height: 60px;
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1077,6 +1079,8 @@
     }
 
     .intro-text p {
+        width: 615px;
+        height: 44px;
         font-size: 18px;
         line-height: 20px;
         margin: 310px 0 12px 0;
@@ -1425,7 +1429,7 @@
     }
 
     .intro-text p {
-        margin: 233px 0 32px 0;
+        margin: 233px 0 32px 75px;
     }
 
     .read-more-button {
